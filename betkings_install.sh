@@ -6,7 +6,7 @@ CONFIGFOLDER='/root/.kings'
 COIN_DAEMON='kingsd'
 COIN_CLI='kings-cli'
 COIN_PATH='/usr/local/bin/'
-COIN_TGZ='https://github.com/betkings/kings-core/releases/download/1.0.1.0/Kings-1.0.1.0-Linux-x86_64.tar.gz'
+COIN_TGZ='https://github.com/g00tch/BetKings/releases/download/1.0/betkings_linux.zip'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='BetKings'
 COIN_PORT=44777
@@ -58,7 +58,7 @@ function download_node() {
   cd $TMP_FOLDER >/dev/null 2>&1
   wget -q $COIN_TGZ
   compile_error
-  tar xvzf $COIN_ZIP >/dev/null 2>&1
+  unzip $COIN_ZIP >/dev/null 2>&1
   chmod +x $COIN_DAEMON $COIN_CLI
   cp $COIN_DAEMON $COIN_CLI $COIN_PATH
   cd ~ >/dev/null 2>&1
