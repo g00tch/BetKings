@@ -135,14 +135,14 @@ If you require further assistance contact the support team @ [Discord](https://d
 * Create a text document to temporarily store information that you will need. 
 ***
 
-***step 4***
-* Go to the console within the wallet 
+***Step 4***
+* Go to the console within the wallet.
 
 ![Example-console](https://i.imgur.com/6NM7G9a.png)
 ***
 
 ***Step 5***
-* Type the command below and press enter 
+* Type the command below and press enter.
 
 `masternode outputs` 
 
@@ -175,9 +175,9 @@ Click "File Save"
 ***
 
 ***Step 3***
-* Close out of the wallet and reopen Wallet
-*Click on the Masternodes tab "My masternodes"
-* Click start all in the masternodes tab
+* Close out of the wallet and reopen Wallet.
+*Click on the Masternodes tab.
+* Click start all in the masternodes tab.
 ***
 
 ***step 4***
