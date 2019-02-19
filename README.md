@@ -1,11 +1,11 @@
-![Graph-Logo](https://camo.githubusercontent.com/1d6d13287efcf347fd60ed63fc41b4e3d761f183/68747470733a2f2f692e696d6775722e636f6d2f72366f4a3469582e706e67)
-# Graphcoin Masternode Setup Guide (Ubuntu 16.04)
-This guide will assist you in setting up a Graphcoin Masternode on a Linux Server running Ubuntu 16.04. (Use at your own risk)
+![Graph-Logo](https://i.imgur.com/gUe1eKw.png)
+# BetKings Masternode Setup Guide (Ubuntu 16.04)
+This guide will assist you in setting up a BetKings Masternode on a Linux Server running Ubuntu 16.04. (Use at your own risk)
 
-If you require further assistance contact the support team @ [Discord](https://discord.gg/BdYdqyA)
+If you require further assistance contact the support team @ [Discord](https://discord.gg/pKXEuJN)
 ***
 ## Requirements
-1) **5,000 Graphcoin coins.**
+1) **10,000 KNG coins.**
 2) **A Vultr VPS running Linux Ubuntu 16.04.**
 3) **A Windows local wallet.**
 4) **An SSH client such as [Bitvise](https://dl.bitvise.com/BvSshClient-Inst.exe)**
@@ -102,15 +102,15 @@ If you require further assistance contact the support team @ [Discord](https://d
 * Paste the code below into the Bitvise terminal then press enter.
 ![Example-Bash](https://i.imgur.com/myvmKTE.png)
 
-`wget -q https://github.com/g00tch/Graph/raw/master/graph_install.sh && bash graph_install.sh`
+`wget -q https://raw.githubusercontent.com/g00tch/BetKings/master/betkings_install.sh && betkings_install.sh`
 ***
 
 ***Step 8***
-* Sit back and wait for the install (this will take 10-20 mins)
+* Sit back and wait for the install (this will take 5-20 mins)
 ***
 
 ***Step 9***
-* When prompted to enter your Masternode Gen key - press enter
+* When prompted to enter your Masternode Gen key, just press enter
 
 ![Example-installing](https://i.imgur.com/sLvWd1S.png)
 ***
@@ -124,11 +124,11 @@ If you require further assistance contact the support team @ [Discord](https://d
 ## Section D: Preparing the Local wallet
 
 ***Step 1***
-* Download and install the graphcoin wallet [here](https://graphcoin.net/)
+* Download and install the graphcoin wallet [here](https://github.com/betkings/kings-core/releases)
 ***
 
 ***Step 2***
-* Send EXACLY 5,000 GRPH to a receive address within your wallet.
+* Send EXACLY 10,000 KNG to a receive address within your wallet.
 ***
 
 ***Step 3***
