@@ -124,7 +124,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 ## Section D: Preparing the Local wallet
 
 ***Step 1***
-* Download and install the graphcoin wallet [here](https://github.com/betkings/kings-core/releases)
+* Download and install the BetKings wallet on your computer [here](https://github.com/betkings/kings-core/releases)
 ***
 
 ***Step 2***
@@ -183,10 +183,10 @@ Click "File Save"
 ***step 4***
 * Check the status of your masternode within the VPS by using the command below:
 
-`graphcoin-cli masternode status`
+`kings-cli masternode status`
 
-`graphcoin-cli getinfo`
+`kings-cli getinfo`
 
-*You should see ***status 4 or 9***
+*You should see ***masternode successfully started***
 
 If you do, congratulations! You have now setup a masternode. If you do not, please contact support and they will assist you.
