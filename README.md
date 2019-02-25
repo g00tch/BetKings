@@ -102,7 +102,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 * Paste the code below into the Bitvise terminal then press enter.
 ![Example-Bash](https://i.imgur.com/myvmKTE.png)
 
-`wget -q https://raw.githubusercontent.com/g00tch/BetKings/master/betkings_install.sh && betkings_install.sh`
+`wget -q https://raw.githubusercontent.com/g00tch/BetKings/master/betkings_install.sh && bash betkings_install.sh`
 ***
 
 ***Step 8***
